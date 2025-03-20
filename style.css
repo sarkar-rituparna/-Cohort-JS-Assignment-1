@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-image: url(https://media.istockphoto.com/id/1348190116/vector/confetti-seamless-background-can-be-used-for-celebration-advertisement-christmas-new-year.jpg?s=612x612&w=0&k=20&c=ps86RsJAETrV4gEjRvZ8Vehq479Ta5mCNGQVLonNdDY=);
+
+}
+
+.container {
+    text-align: center;
+}
+
+li a {
+    color: rgb(71, 18, 12);
+    margin: 5em;
+}
+
+
+.header h1 {
+    color: rgb(55, 11, 6);
+    font-size: 3em;
+    text-shadow: 2px 4px #eef1f1db;
+    margin-top: 60px;
+    
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.content {
+    border-radius: 30px;
+    max-width: 550px;
+    margin: 80px;
+    padding: 60px;
+    background-image: url(https://cdn.pixabay.com/photo/2014/03/25/15/25/sticky-note-296778_640.png);
+}
+
+.ask-question {
+    margin-bottom: 50px;
+}
+
+#divButton {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.all-buttons {
+    all: unset;
+}
+
+.all-buttons:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+img {
+    all: unset;
+    width: 50px;
+}
+.moodHistory{
+    color: rgb(55, 11, 6);
+    font-size: 1.5em;
+    text-shadow: 2px 4px #ffffe5db;
+    color: #2e0a01;
+}
+#moodList{
+    padding: 20px;
+    font-weight: bold;
+    
+}
+.footer {
+    margin-top: 100px;
+    color: rgb(55, 11, 6);
+    font-size: 1.2em;
+    text-shadow: 2px 4px #eef1f1db;
+    color: #2e0a01;
+}
+
+.icons{
+    margin-top: 50px;
+    font-size: x-small;
+}
